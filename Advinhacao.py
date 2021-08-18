@@ -7,7 +7,7 @@ numero_secreto = random.randrange(1, 100)
 print("Dica: o número secreto está entre", numero_secreto-random.randrange(1, 11) ,"e", numero_secreto+random.randrange(1, 11))
 tentativas = 1
 
-while(tentativas <= 3):
+while(tentativas <= 5):
     chute = input("Chute um número:")
     numeroChutado = int(chute)
     if(numero_secreto == numeroChutado):
@@ -18,7 +18,7 @@ while(tentativas <= 3):
             print("Sinto muito, você errou! Seu chute saiu mais alto")
         else:
             print("Sinto muito, você errou! Seu chute saiu mais baixo")
-            print("Tentativa", tentativas ,"de 3")
+            print("Tentativa", tentativas ,"de 5")
             tentativas= tentativas + 1
 print("O número secreto era", numero_secreto)
 print("FIM DO JOGO!")
