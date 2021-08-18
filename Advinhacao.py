@@ -17,6 +17,7 @@ while(tentativas <= 5):
         if(numeroChutado > numero_secreto):
             print("Sinto muito, você errou! Seu chute saiu mais alto")
             print("Tentativa", tentativas ,"de 5")
+            tentativas = tentativas + 1
         else:
             print("Sinto muito, você errou! Seu chute saiu mais baixo")
             print("Tentativa", tentativas ,"de 5")
