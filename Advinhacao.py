@@ -20,5 +20,5 @@ while(tentativas <= 3):
             print("Sinto muito, você errou! Seu chute saiu mais baixo")
             print("Tentativa", tentativas ,"de 3")
             tentativas= tentativas + 1
-
+print("O número secreto era", numero_secreto)
 print("FIM DO JOGO!")
