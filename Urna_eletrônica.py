@@ -5,6 +5,8 @@ print("3 - Jaco")
 print("4 - Jobe")
 print("5 - Nulo")
 print("6 - Branco")
+print("Digite 0 para encerrar as eleições!")
+
 
 Joao = 0
 Jose = 0
